@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *{
+            margin: 5px;
+            box-sizing: border-box;
+        }
+
+        body{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 90vh;
+        }
+        header{
+            background: #00695c;
+            padding: 40px 0px 40px;
+        }
+
+        
+       .container{
+            display: flex;
+            flex: 1;
+       }
+
+       .left{
+        background: #00695c;
+        padding: 40px 0px 40px;
+        flex: 10 10 100px;
+        text-align: center;
+       }
+
+       .right{
+        background: #00695c;
+        padding: 40px 0px 40px;
+        flex: 30 30 100px;
+        text-align: center;
+       }
+
+       footer{
+        background: #00695c;
+        padding: 40px 0px 40px ;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        Header (980 x 140)
+    </header>
+    <div class="container">
+        <aside class="left" >
+            Sidebar (270 x 450)
+        </aside>
+        <main class="right">
+            Content (690 x 450)
+        </main>
+    </div>
+    <footer>
+        Footer (980 x 70)
+    </footer>
+</body>
+</html>
